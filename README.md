@@ -3,15 +3,15 @@
 Task management microservice demo.
 
 ## Features
-- Create, Read, Update and Replace a task
+- Create, Read, Update and Replace a task.
 
 ## Tech
 
 This project is developed with [FastApi](https://fastapi.tiangolo.com) and [MongoDB](https://www.mongodb.com) and of course **TODO API** itself is open source with a [public](https://github.com/josueisaihs/TodoBackend) on GitHub.
 
-### Install
+## Install
 ---
-#### Unix
+### Unix
 Clone the repository
 ```sh
 git clone https://github.com/josueisaihs/TodoBackend
@@ -37,7 +37,15 @@ Create the environment variables file in "`config/.env`".
 MONGODB_CONNECTION="mongodb+srv://<username>:<password>@cluster.mongodb.net/?retryWrites=true&w=majority"
 ```
 
-The `SECRET_KEY` key can be any text string, but we recommend generating it as
+### Run server
+Finally, run the following to launch the local server.
 ```sh
-openssl rand -hex 32
+uvicorn main:app --reload
 ```
+
+Now, to know how it works, consult the documentation in [documentation](http://localhost:8000/docs).
+
+---
+## Next step
+
+Authentication using JWT.
