@@ -1,13 +1,4 @@
-# TODO API
-
-Task management microservice demo.
-
-## Features
-- Create, Read, Update and Replace a task
-
-## Tech
-
-This project is developed with [FastApi](https://fastapi.tiangolo.com) and [MongoDB](https://www.mongodb.com) and of course **TODO API** itself is open source with a [public](https://github.com/josueisaihs/TodoBackend) on GitHub.
+**TODO API** itself is open source with a [public](https://github.com/josueisaihs/TodoBackend) on GitHub.
 
 ### Install
 ---
